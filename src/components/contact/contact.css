@@ -1,0 +1,87 @@
+.contact-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 48px 24px;
+}
+
+.contact-container .contact-message {
+  margin: 4px 0 16px;
+  color: #d1d1d1;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.contact-forms {
+  display: flex;
+  width: min(100%, 800px);
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.contact-container .contact-forms .input {
+  width: 100%;
+  min-width: 0;
+  margin: 8px 0;
+  padding: 16px 20px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #292929;
+  color: #ffffff;
+  font: 400 1rem "Poppins", sans-serif;
+}
+
+.contact-container .contact-forms .input::placeholder {
+  color: #b8b8b8;
+  opacity: 1;
+}
+
+.contact-container .contact-forms textarea {
+  min-height: 145px;
+  resize: vertical;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.contact-container .contact-forms .btn {
+  min-width: 110px;
+  border-radius: 4px;
+}
+
+.contact-container .contact-forms .btn:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.form-status {
+  min-height: 1.6em;
+  margin: 12px 0 0;
+  color: #d1d1d1;
+  line-height: 1.6;
+}
+
+.form-status.success {
+  color: #92e6a7;
+}
+
+.form-status.error {
+  color: #ffadad;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+

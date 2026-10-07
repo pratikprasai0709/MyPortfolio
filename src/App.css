@@ -1,0 +1,13 @@
+.App {
+  min-height: 100vh;
+  overflow-x: clip;
+}
+
+main {
+  width: 100%;
+}
+
+[id] {
+  scroll-margin-top: 1.5rem;
+}
+

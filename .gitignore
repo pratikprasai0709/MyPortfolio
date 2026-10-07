@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Production build and test output
+/build
+/coverage
+
+# Local environment files (keep the example template)
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local caches
+/.eslintcache
+/.npm/
+
+# Operating system files
+.DS_Store
+Thumbs.db
